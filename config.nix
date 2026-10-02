@@ -72,6 +72,7 @@
     nix.enable = true;
     lsp.enable = true;
     oil.enable = true;
+    gitsigns.enable = true;
     otter = {
       enable = true;
       # activates on every LSP attach, including otter-ls itself and hover
