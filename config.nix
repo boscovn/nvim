@@ -24,7 +24,7 @@
       yamlls.enable = true;
       jsonls.enable = true;
       zls.enable = true;
-      rust_analyzer.enable = true;
+      # rust_analyzer.enable = true;
       # servers for languages commonly embedded in markdown code blocks
       bashls.enable = true;
       lua_ls.enable = true;
@@ -115,6 +115,7 @@
       enable = true;
       yaml.enable = true;
     };
+    rustaceanvim.enable = true;
     dap.enable = true;
     dap-ui.enable = true;
     dap-go.enable = true;
