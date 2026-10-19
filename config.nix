@@ -72,6 +72,7 @@
     nix.enable = true;
     lsp.enable = true;
     oil.enable = true;
+    dbee.enable = true;
     gitsigns.enable = true;
     otter = {
       enable = true;
