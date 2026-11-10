@@ -73,6 +73,7 @@
     lsp.enable = true;
     oil.enable = true;
     dbee.enable = true;
+    zellij-nav.enable = true;
     gitsigns.enable = true;
     otter = {
       enable = true;
