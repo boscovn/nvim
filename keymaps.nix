@@ -20,6 +20,28 @@
       key = "<leader>sg";
       options.desc = "Search for a string in the project with telescope";
     }
+    # Move between windows, continuing into zellij's panes at the edge (h/l
+    # on into its tabs), mirroring the Ctrl+hjkl binds in nix-config's zellij.nix
+    {
+      action = "<cmd>ZellijNavigateLeftTab<CR>";
+      key = "<C-h>";
+      options.desc = "Navigate left (window, zellij pane or tab)";
+    }
+    {
+      action = "<cmd>ZellijNavigateDown<CR>";
+      key = "<C-j>";
+      options.desc = "Navigate down (window or zellij pane)";
+    }
+    {
+      action = "<cmd>ZellijNavigateUp<CR>";
+      key = "<C-k>";
+      options.desc = "Navigate up (window or zellij pane)";
+    }
+    {
+      action = "<cmd>ZellijNavigateRightTab<CR>";
+      key = "<C-l>";
+      options.desc = "Navigate right (window, zellij pane or tab)";
+    }
     {
       key = "<leader>db";
       action.__raw = ''function() require("dap").toggle_breakpoint() end'';
